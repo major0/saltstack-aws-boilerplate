@@ -4,4 +4,4 @@ conf_file: config/minion
 master_type: disable
 cachedir: cache/minion
 log_file: log/minion
-log_level: debug
+#log_level: debug
