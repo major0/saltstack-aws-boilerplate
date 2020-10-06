@@ -1,0 +1,5 @@
+root_dir: .
+master_type: disable
+cachedir: cache
+log_file: log/minion
+log_level: debug
