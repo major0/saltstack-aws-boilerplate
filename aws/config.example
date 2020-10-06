@@ -1,0 +1,16 @@
+[default]
+output = table
+region = us-east-1
+duration_seconds = 129600
+
+[profile my-company]
+output = table
+region = us-west-2
+mfa_serial = arn:aws:iam::01234567890:mfa/myuser
+duration_seconds = 129600
+
+[profile admin@my-company]
+role_arn = arn:aws:iam::01234567890:role/admin
+source_profile = my-company
+region = us-west-2
+mfa_serial = arn:aws:iam::01234567890:mfa/myuser
