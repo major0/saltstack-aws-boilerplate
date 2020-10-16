@@ -2,6 +2,7 @@ id: aws-bootstrap
 root_dir: .
 conf_file: config/minion
 master_type: disable
+file_mode: local
 cachedir: cache/minion
 log_file: log/minion
 #log_level: debug
